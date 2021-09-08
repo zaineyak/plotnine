@@ -8,6 +8,7 @@ from .scale_alpha import scale_alpha_datetime
 from .scale_color import scale_color_brewer, scale_colour_brewer
 from .scale_color import scale_color_cmap, scale_colour_cmap
 from .scale_color import scale_color_cmap_d, scale_colour_cmap_d
+from .scale_color import scale_color_rcmap, scale_colour_rcmap
 from .scale_color import scale_color_ordinal, scale_colour_ordinal
 from .scale_color import scale_color_continuous, scale_colour_continuous
 from .scale_color import scale_color_desaturate, scale_colour_desaturate
