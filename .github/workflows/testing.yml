@@ -61,6 +61,13 @@ jobs:
           make test
           ls -la
 
+      - uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: result-images
+          path: result_images/
+          if-no-files-found: ignore
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
         with:
