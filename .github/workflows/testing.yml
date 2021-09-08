@@ -43,7 +43,7 @@ jobs:
         shell: bash -l {0}
         run: |
           conda install scipy pandas statsmodels scikit-learn geopandas pytest-cov
-          pip install matplotlib --no-binary matplotlib
+          pip install matplotlib
           pip install scikit-misc adjustText pyshp
           pip install -e .
 
